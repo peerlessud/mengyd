@@ -8,7 +8,7 @@ div.header{background-color:#5fc0cd;
 .header p{text-align: center;margin: 0;
 	position: absolute;left: 50%;transform:translateX(-50%);}
 div.footer{background-color: white;
-	width: 100%;height: 80px;
+	width: 100%;height: 60px;
 	position: fixed;bottom: 0;
 	display: flex;justify-content: space-between;}
 button{width: calc(50% - 15px);
@@ -16,12 +16,12 @@ button{width: calc(50% - 15px);
 	border-style: solid;
 	border-color:#5fc0cd;border-radius:5px;
 	outline: none;}
-.message{background-color: transparent;
+.message{background-color: transparent;color: #5fc0cd;
 	margin-left: 10px;margin-right: 5px;}
-.phone{background-color: #5fc0cd;
+.phone{background-color: #5fc0cd;color: white;
 	margin-left: 5px;margin-right: 10px;}
-div.main{margin-top: 50px;
-	width: 100%;}
+div.main{margin-top: 50px;margin-bottom: 60px;
+	width: 100%;overflow: auto;}
 div.mianban{width: 100%;height: 163.5px;
 	background: url('护工个人主页/背景.png');
 	background-size: cover;
@@ -32,3 +32,19 @@ div.mianban{width: 100%;height: 163.5px;
 img.touxiang{width: 84.5px;height: 84.5px;margin: 15px;}
 #adress{font-size: 8px;}
 img.dingwei{width: 9px;height: 11.5px;margin-right: 5px;}
+div.skill p{margin: 0;height: 50px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-bottom-color: lightgray;
+	display: flex;align-items: center;}
+p.skill-1 img{width: 1.5px;height: 13px;
+	margin: 0 15px;font-weight: bold;}
+div.skill p.a1{margin-left: 15px;padding-left: 15px;}
+div.skill p.skill-6{padding-left: 30px;font-size: 10px; }
+div.skill p span{color: lightgray;font-weight: normal;
+	width: 65px;flex-shrink: 0;}
+div.skill p span#little{font-size: 16px;}
+img.star{width: 12px;height: 11.5px;
+	margin-right: 10px;}
+img.ver{width: 1px;height: 13px;margin: 0 15px;}
+div.skill p.skill-5{color: red;font-weight: bold;}
