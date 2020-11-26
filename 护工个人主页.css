@@ -65,14 +65,13 @@ p {margin: 0;
 	height: 50px;
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-bottom-color: lightgray;
+    border-color: lightgray;
     display: flex;
     align-items: center;}
 .skill-1 
 img {width: 1.5px;
 	height: 13px;
-    margin: 0 15px;
-    font-weight: bold;}
+    margin: 0 15px;}
 .skill
 .a1 {margin-left: 15px;
 	padding-left: 15px;}
