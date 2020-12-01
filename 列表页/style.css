@@ -1,0 +1,128 @@
+#gopng_write_outer {
+height: 94px;
+width: 94px;
+overflow: hidden;
+}
+#gopng_write {
+background: url(http://gopng/static/images/sprite.png) -0px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 0px;
+_margin-left: -0px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_my_outer {
+height: 76px;
+width: 42px;
+overflow: hidden;
+}
+#gopng_my {
+background: url(http://gopng/static/images/sprite.png) -94px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 94px;
+_margin-left: -94px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_home_outer {
+height: 74px;
+width: 46px;
+overflow: hidden;
+}
+#gopng_home {
+background: url(http://gopng/static/images/sprite.png) -136px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 136px;
+_margin-left: -136px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_定位1_outer {
+height: 44px;
+width: 42px;
+overflow: hidden;
+}
+#gopng_定位1 {
+background: url(http://gopng/static/images/sprite.png) -182px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 182px;
+_margin-left: -182px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_next_outer {
+height: 33px;
+width: 19px;
+overflow: hidden;
+}
+#gopng_next {
+background: url(http://gopng/static/images/sprite.png) -224px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 224px;
+_margin-left: -224px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_calendar_outer {
+height: 24px;
+width: 24px;
+overflow: hidden;
+}
+#gopng_calendar {
+background: url(http://gopng/static/images/sprite.png) -243px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 243px;
+_margin-left: -243px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_定位2_outer {
+height: 23px;
+width: 19px;
+overflow: hidden;
+}
+#gopng_定位2 {
+background: url(http://gopng/static/images/sprite.png) -267px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 267px;
+_margin-left: -267px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
+#gopng_下拉_outer {
+height: 8px;
+width: 13px;
+overflow: hidden;
+}
+#gopng_下拉 {
+background: url(http://gopng/static/images/sprite.png) -286px -0px no-repeat;
+width: 100%;
+height: 100%;
+_background: none;
+_padding-left: 286px;
+_margin-left: -286px;
+_padding-top: 0px;
+_margin-top: -0px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src="http://gopng/static/images/sprite.png");
+}
