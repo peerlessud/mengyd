@@ -3,50 +3,45 @@
 <head>
 	<title>列表页</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="列表页.css">
 </head>
 <body>
 <div class="header"></div>
-<div class="main-head">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-4 dropdown">
-				<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-				所在地
-				<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu1">
-					<li><a href="#">北京</a></li>
-					<li><a href="#">上海</a></li>
-					<li><a href="#">南京</a></li>
-				</ul>
-			</div>
-			<div class="col-xs-4 dropdown">
-				<button type="button" class="btn dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown">
-				食宿
-				<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu2">
-					<li><a href="#">包食宿</a></li>
-					<li><a href="#">不包食宿</a></li>
-				</ul>
-			</div>
-			<div class="col-xs-4 dropdown">
-				<button type="button" class="btn dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown">
-				病人情况
-				<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu2">
-					<li><a href="#">良好</a></li>
-					<li><a href="#">较差</a></li>
-					<li><a href="#">严重</a></li>
-				</ul>
-			</div>
-		</div>
+<div class="biaotou">
+	<div class="num1">
+	<button type="button" class="btn dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown">
+		<p>所在地</p>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu1">
+		<li><a href="#">北京</a></li>
+		<li><a href="#">上海</a></li>
+		<li><a href="#">南京</a></li>
+	</ul>
 	</div>
-
-
+	<div class="num2">
+	<button type="button" class="btn dropdown-toggle" id="dropdownMenu5" data-toggle="dropdown">
+		<p>食宿</p>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu2">
+		<li><a href="#">包食宿</a></li>
+		<li><a href="#">不包食宿</a></li>
+	</ul>
+	</div>
+	<div class="num3">
+	<button type="button" class="btn dropdown-toggle" id="dropdownMenu6" data-toggle="dropdown">
+		<p>病人情况</p>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu2">
+		<li><a href="#">良好</a></li>
+		<li><a href="#">较差</a></li>
+		<li><a href="#">严重</a></li>
+	</ul>
+	</div>
 </div>
 <div class="footer"></div>
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
