@@ -74,7 +74,9 @@ p {white-space: nowrap;
 .ri
 p {color: red;
 	font-size: 18px;
-	margin: 0;}
+	margin: 0;
+	display: flex;
+	align-items: center;}
 .le
 span {background-image: url(./列表页/sprite.png);
 	background-repeat: no-repeat;
