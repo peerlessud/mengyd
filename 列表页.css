@@ -4,17 +4,23 @@
     width: 100%;
 	height: 50px;
 	background-color: #5fc0cd;
-	z-index: 5;}
+	z-index: 5;
+	display: flex;
+	align-items: center;}
 .footer {position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 	height: 50px;
-	background-color: #5fc0cd;}
+	padding: 0 15%;
+	background-color: #f8fafb;
+	display: flex;
+	align-items: center;}
 .biaotou {position: fixed;
 	left: 0;
 	top: 50px;
 	width: 100%;
+	color: #999999;
 	background-color: white;
 	border-bottom: 0.5px solid #999999;
 	display: flex;
@@ -28,14 +34,16 @@ div {flex-grow: 1;
 	border-radius: 0;
 	background-color: transparent;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	font-size: 16px;}
 #dropdownMenu2 {border-width: 0 1px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom, white, #999999, white) 2;}
 .btn p {margin: 0;
-	display: inline-block;}
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);}
 .dropdown-menu {min-width: 100%;}
 .btn .caret {position: absolute;
 	right: 0;
@@ -54,9 +62,103 @@ div {flex-grow: 1;
 .le
 p {white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;}
+	text-overflow: ellipsis;
+	color: #999999;
+	margin: 0;}
+.le
+.date {color: black;
+	margin: 10px 0;
+	padding-left: 37px;}
 .ri {position: absolute;
+	right: 0;}
+.ri
+p {color: red;
+	font-size: 18px;
+	margin: 0;}
+.le
+span {background-image: url(./列表页/sprite.png);
+	background-repeat: no-repeat;
+	display: inline-block;}
+.service
+span {width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	margin-left: 15px;
+	background-position: -132px 0;}
+.adress
+span {width: 10px;
+	height: 12px;
+	margin-right: 11px;
+	margin-left: 16px;
+	background-position: -122px 0;}
+.price
+span {display: inline-block;
+	width: 10px;
+	height: 17px;
+	margin: 0 15px 0 10px;
+	background-image: url(./列表页/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -112px 0;}
+.footer
+.btn {background-image: url(./列表页/sprite.png);
+	background-repeat: no-repeat;
+	border-width: 0;}
+#home {width: 23px;
+	height: 37px;
+	position: absolute;
+	left: 15%;
+	background-position: -68px 0;}
+#write {width: 47px;
+	height: 47px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background-position: 0 0;}
+#my {width: 21px;
+	height: 39px;
+	position: absolute;
+	right: 15%;
+	background-position: -47px 0;}
+.footer
+.btn:focus {outline-offset: 0;}
+.header
+.location {width: 21px;
+	height: 22px;
+	margin-right: 15px;
+	display: inline-block;
+	position: absolute;
 	right: 0;
-	color: red;
-	font-size: 18px;}
+	background-image: url(./列表页/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -91px 0;}
+.btn-group {width: 40%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);}
+.btn-default {width: 50%;
+	height: 30px;
+	background-color: #55a8b3;
 
+	border-width: 0;
+	color: white;
+	justify-content: center;}
+.btn-group
+.btn.btn-default {margin: 0;
+	border-radius: 5px;
+	z-index: 5;}
+.btn-default.active,
+.btn-default.active.focus {color: #5fc0cd;
+	background-color: white;
+}
+#gu.active,
+#gu.active.focus {margin-right: -10px;
+	z-index: 6;}
+#hu.active,
+#hu.active.focus {margin-left: -10px;
+	z-index: 6;}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;}
+.btn-group>.btn:last-child:not(:first-child){
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;}
