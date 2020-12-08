@@ -140,7 +140,6 @@ span {display: inline-block;
 .btn-default {width: 50%;
 	height: 30px;
 	background-color: #55a8b3;
-
 	border-width: 0;
 	color: white;
 	justify-content: center;}
@@ -150,14 +149,15 @@ span {display: inline-block;
 	z-index: 5;}
 .btn-default.active,
 .btn-default.active.focus {color: #5fc0cd;
-	background-color: white;
-}
+	background-color: white;}
 #gu.active,
 #gu.active.focus {margin-right: -10px;
-	z-index: 6;}
+	z-index: 6;
+	outline-width: 0;}
 #hu.active,
 #hu.active.focus {margin-left: -10px;
-	z-index: 6;}
+	z-index: 6;
+	outline-width: 0;}
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;}
