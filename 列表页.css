@@ -43,7 +43,7 @@ div {flex-grow: 1;
 	-webkit-border-image: -webkit-linear-gradient(-90deg, white, #999999, white) 1;
 	-o-border-image: -o-linear-gradient(-90deg, white, #999999, white) 1;
 	-moz-border-image: -moz-linear-gradient(-90deg, white, #999999, white) 1;
-	border-image: linear-gradient(90deg, white, #999999, white) 1;}
+	border-image: linear-gradient(180deg, white, #999999, white) 1;}
 .btn p {margin: 0;}
 .dropdown-menu {min-width: 100%;
 	text-align: center;
