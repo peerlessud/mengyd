@@ -15,7 +15,6 @@
 	padding: 0 15%;
 	background-color: #f8fafb;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;}
 .biaotou {position: fixed;
 	left: 0;
@@ -36,12 +35,15 @@ div {flex-grow: 1;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	font-size: 16px;}
 #dropdownMenu2 {border-width: 0 1px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom, white, #999999, white) 2;}
-.btn p {margin: 0;}
+.btn p {margin: 0;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);}
 .dropdown-menu {min-width: 100%;
 	text-align: center;
 	border: 2px solid rgba(0,255,255,.3);}
@@ -56,7 +58,9 @@ div {flex-grow: 1;
 	align-items: center;
 	position: relative;
 	border-bottom: 0.5px solid #999999;}
-.le {width: 45%;}
+.le {width: 45%;
+	position: absolute;
+	left: 0;}
 .le
 p {white-space: nowrap;
 	overflow: hidden;
@@ -67,7 +71,8 @@ p {white-space: nowrap;
 .date {color: black;
 	margin: 10px 0;
 	padding-left: 37px;}
-.ri {margin-left: auto;}
+.ri {position: absolute;
+	right: 0;}
 .ri
 p {color: red;
 	font-size: 18px;
@@ -104,12 +109,19 @@ span {display: inline-block;
 	border-width: 0;}
 #home {width: 23px;
 	height: 37px;
+	position: absolute;
+	left: 15%;
 	background-position: -68px 0;}
 #write {width: 47px;
 	height: 47px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 	background-position: 0 0;}
 #my {width: 21px;
 	height: 39px;
+	position: absolute;
+	right: 15%;
 	background-position: -47px 0;}
 .footer
 .btn:focus {outline-offset: 0;}
@@ -117,11 +129,14 @@ span {display: inline-block;
 .location {width: 21px;
 	height: 22px;
 	margin-right: 15px;
-	margin-left: auto;
+	display: inline-block;
+	position: absolute;
+	right: 0;
 	background-image: url(./列表页/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -91px 0;}
 .btn-group {width: 40%;
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);}
 .btn-default {width: 50%;
