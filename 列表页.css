@@ -27,7 +27,7 @@
 	display: flex;
 	z-index: 5;}
 .biaotou
-div {flex-grow: 1;
+div {flex: 1;
 	position: relative;}
 .btn {padding: 0;
 	width: 100%;
@@ -40,10 +40,10 @@ div {flex-grow: 1;
 	font-size: 16px;}
 #dropdownMenu2 {border-width: 0 1px;
 	border-style: solid;
-	-webkit-border-image: -webkit-linear-gradient(-90deg, white, #999999, white) 1;
-	-o-border-image: -o-linear-gradient(-90deg, white, #999999, white) 1;
-	-moz-border-image: -moz-linear-gradient(-90deg, white, #999999, white) 1;
-	border-image: linear-gradient(180deg, white, #999999, white) 1;}
+	border-image: -webkit-linear-gradient(-90deg, white, #999999, white) 0 1;
+	border-image: -o-linear-gradient(-90deg, white, #999999, white) 0 1;
+	border-image: -moz-linear-gradient(-90deg, white, #999999, white) 0 1;
+	border-image: linear-gradient(180deg, white, #999999, white) 0 1 0 1;}
 .btn p {margin: 0;}
 .dropdown-menu {min-width: 100%;
 	text-align: center;
